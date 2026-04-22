@@ -4,8 +4,8 @@ class Solution {
         int sum = 0;
         int ans = n;
         while(n != 0){
-            int num = n%10;
-            sum += Math.pow(num,3);
+            int d = n%10;
+            sum += d*d*d;
             n /= 10;
         }
         
