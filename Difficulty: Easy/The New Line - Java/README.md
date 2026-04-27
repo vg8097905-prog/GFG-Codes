@@ -1,0 +1,6 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/the-new-line-java/1?page=2&category=Java&sortBy=submissions">The New Line - Java</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">You are given a <strong>sentence </strong>(a string consisting of words separated by spaces) as input. Print each word of this sentence on a separate line.</span></p>
+<p><strong><span style="font-size: 18px;">Examples:</span></strong></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>sentance = "g</span><span style="font-size: 18px;">eeks for geeks"</span>
+<span style="font-size: 18px;"><strong>Output: <br></strong>geeks<br>for<br>geeks</span>
+<span style="font-size: 18px;"><strong>Explanation: </strong>All words are printed in separate lines<br><br><strong>Input:</strong> sentance = "hello world from java"<br><strong>Output:</strong> <br>hello<br>world<br>from <br>java</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ sentance.size() ≤ 500<br>The sentence contains only lowercase alphabets.</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Java</code>&nbsp;
