@@ -11,23 +11,22 @@ class Solution {
            if(arr[i]==candidate){
                 count++;
             } 
-                if(arr[i]!=candidate){
-                    count--;
+            
+            if(arr[i]!=candidate){
+                count--;
                 }
-      
-               
-        }
-        count = 0;
-        for(int j =0;j<arr.length;j++){
-              if(arr[j]==candidate){
-                  count++;
-              }
-              if(count>arr.length/2){
-            return candidate;
-        }
-      
         }
         
+        count = 0;
+        for(int j =0;j<arr.length;j++){
+            
+            if(arr[j]==candidate){
+                count++;
+            }
+              if(count>arr.length/2){
+                return candidate;
+            }
+        }
         return -1;
     }
 }
